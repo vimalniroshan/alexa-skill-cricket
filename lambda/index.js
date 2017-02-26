@@ -23,7 +23,7 @@ var intentHandlers = {
 
 exports.handler = function (event, context, callback) {
   var alexa = Alexa.handler(event, context);
-  alexa.appId = 'amzn1.echo-sdk-ams.app.b0828e5b-9c8a-4b1c-a4ee-ccb0cea643a9';
+  //alexa.appId = 'amzn1.echo-sdk-ams.app.b0828e5b-9c8a-4b1c-a4ee-ccb0cea643a9';
   alexa.registerHandlers(standardHandlers, intentHandlers);
   alexa.execute();
 };
