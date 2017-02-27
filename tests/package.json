@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha *.test.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.20.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}

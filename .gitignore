@@ -1,2 +1,5 @@
+config/config.json
 lambda/node_modules
+lambda/config/config.json
+tests/node_modules
 index.zip
